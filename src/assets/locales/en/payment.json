@@ -1,0 +1,13 @@
+{
+    "hello": "Xin chào",
+    "notification": {
+        "upgrade_collaborator": {
+            "title": "Upgrade collaborator success",
+            "body": "Payment of {amount} VND has been made successfully, and the collaborator upgrade is complete."
+        },
+        "purchase_card": {
+            "title": "Buy card success",
+            "body": "Payment of {amount} VND has been made successfully, and active card {cardNumber} complete."
+        }
+    }
+}

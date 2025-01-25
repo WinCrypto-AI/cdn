@@ -1,0 +1,7 @@
+{
+  "WithdrawService": {
+    "error": {
+      "out_of_limit": "Vượt quá hạn mức khả dụng."
+    }
+  }
+}

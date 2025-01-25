@@ -1,0 +1,8 @@
+{
+    "AuthMemberService": {
+        "error": {
+            "member_existed": "Tài khoản {username} đã tồn tại",
+            "member_not_existed": "Tài khoản không tồn tại"
+        }
+    }
+}

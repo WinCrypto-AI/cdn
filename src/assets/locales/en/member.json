@@ -1,0 +1,8 @@
+{
+    "AuthMemberService": {
+        "error": {
+            "member_existed": "Member {username} existed",
+            "member_not_existed": "Member not existed"
+        }
+    }
+}

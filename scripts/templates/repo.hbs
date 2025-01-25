@@ -1,0 +1,5 @@
+import { EntityRepository } from 'typeorm';
+import { BaseRepository } from '~/repositories/base.repository';
+import { {{dashToProperCase name}} } from "~/entities/{{dbFolder}}";
+@EntityRepository({{dashToProperCase name}})
+export class {{dashToProperCase name}}Repo extends BaseRepository<{{dashToProperCase name}}> {}

@@ -1,0 +1,15 @@
+import { Service, BindRepository } from "~/core/decorator";
+import { {{toProperCase name}}Respository } from "../repositories/{{dbFolder}}";
+import { FindManyOptions } from "typeorm";
+import { {{toProperCase name}} } from "../entity/{{dbFolder}}";
+@Service()
+export class {{toProperCase name}}Service {
+
+@BindRepository({{toProperCase name}}Respository)
+private repo: {{toProperCase name}}Respository
+
+
+async find(findOptions?: FindManyOptions<{{toProperCase name}}>){
+    return this.repo.findOptions(findOptions);
+    }
+    }

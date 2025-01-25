@@ -1,0 +1,21 @@
+import { Controller, Body } from "@nestjs/common";
+import { BindService, DefGet, DefPost } from "~/core/decorator";
+import { {{toProperCase name}}Service } from "~/app/services";
+import { {{toProperCase name}} } from "~/app/entity/{{dbFolder}}";
+import { IFindManyOptions } from "~/app/common/interfaces/options";
+
+
+@DefController("{{camelCaseToDash name}}")
+export class {{toProperCase name}}Controller {
+
+@BindService({{toProperCase name}}Service)
+{{toLowerFistCase name}}Service: {{toProperCase name}}Service
+
+@DefPost('example')
+async example(@Body() body: Object){
+return "Example"
+}
+
+
+
+}

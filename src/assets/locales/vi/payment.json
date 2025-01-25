@@ -1,0 +1,13 @@
+{
+    "hello": "Xin chào",
+    "notification": {
+        "upgrade_collaborator": {
+            "title": "Nâng cấp cộng tác viên thành công",
+            "body": "Thanh toán {amount} VNĐ đã được thực hiện thành công và quá trình nâng cấp cộng tác viên đã hoàn tất."
+        },
+        "purchase_card": {
+            "title": "Mua thẻ thành công",
+            "body": "Thanh toán {amount} VNĐ đã được thực hiện thành công và thẻ hoạt động {cardNumber} đã hoàn tất."
+        }
+    }
+}
