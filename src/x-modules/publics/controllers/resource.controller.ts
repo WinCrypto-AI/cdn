@@ -12,7 +12,7 @@ export class ResourceController {
   @DefPost('/upload')
   @UseInterceptors(AnyFilesInterceptor())
   async uploadFile(@UploadedFiles() files: MultipartFile[], @Req() req: Request) {
-    const domain = `${req.protocol}://${req.headers.host}`;
+    const domain = `${req.protocol}://${req.get('host')}`;
     return this.fileStorageService.storeFile(files[0], domain);
   }
 }
