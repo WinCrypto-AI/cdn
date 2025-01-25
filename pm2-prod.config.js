@@ -13,7 +13,7 @@ module.exports = {
       merge_logs: true,
       env: {
         TZ: 'UTC',
-        PORT: 5001,
+        PORT: 5009,
       },
     },
   ],
